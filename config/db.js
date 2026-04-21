@@ -6,7 +6,7 @@ const connectDB = async () => {
         console.log("DB Connected Successfully");
     }
     catch(e){
-        console.log("Unable to Connect DB",e.messge);
+        console.log("Unable to Connect DB",e.message);
     }
  };
 module.exports = connectDB; 
